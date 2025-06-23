@@ -1,0 +1,358 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.welcome {
+  width: 100%;
+  height: 100px;
+  background-color: #004d99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.container {
+  width: 90%; /* Or a fixed width like 600px */
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+.login {
+  width: 350px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.login h1 {
+padding-bottom: 10px;
+  color: #004d99;
+   align-items: center; 
+   justify-content: center; 
+}
+
+.login form {
+  width:100%;
+  margin-top: 10px;
+}
+.login input {
+  
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login button {
+  width: 30%;
+  margin-top: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #0056b3;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center;    /* Center horizontally */
+  gap: 30px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+.section-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+ /* ===========productManager.php ========= */
+.product-manager {
+  background: #f9f9f9;
+  padding: 40px;
+}
+.add-prod-link {
+  margin-bottom: 30px;
+  display: inline-block;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.page-content {
+  margin: 40px;
+}
+
+   /*============Tech Manager=================*/    
+
+.tech-manager {
+  padding: 40px;
+}
+
+.tech-manager h1{
+  padding-bottom: 10px;
+}
+
+/*============Customer Manager=================*/    
+
+.add-cust-link {
+padding-bottom: 20px;
+}
+.customer-manager a{
+  padding-bottom: 10px;
+}
+
+/*============ Add Customer=================*/  
+  .add-customer {
+    margin: 40px;
+  }
+
+ 
+/*============Edit Customer=================*/    
+.edit-customer {
+margin: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 700px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top-links {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+    resize: vertical;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+    font-family: inherit;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+input[type="date"] {
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    height: 42px;
+    /* Ensures it matches text input height */
+    appearance: none;
+    /* Remove browser default styling (Safari, Firefox) */
+    -webkit-appearance: none;
+    /* Chrome/Safari */
+    -moz-appearance: none;
+    /* Firefox */
+    position: relative;
+}
+
+.filter-container {
+    padding-top: 30px;
+}
+
+.filter-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-form label {
+    white-space: nowrap;
+}
+
+.filter-form input[type="text"] {
+    padding: 5px;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.filter-form {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* space between items */
+    margin-bottom: 15px;
+}
+
+.filter-form {
+  display: flex;
+  flex-direction: column; /* stack children vertically */
+  gap: 10px;
+}
+
+.inputs-column {
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.inputs-column input {
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+
+.actions-row {
+  display: flex;
+  justify-content: space-between; /* pushes children to opposite ends */
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.login-box {
+  width: 400px;
+  height: 300px;     /* fixed height */
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-sizing: border-box; /* important to include padding inside height */
+}
+
+
+.login-box h2 {
+  margin-top: -10px; /* moves it up by 10 pixels */
+}
+.login-box form {
+  width: 100%;
+  height: 75%;
+  padding-top: 10px;
+  padding: 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  display: block;     
+  width: 40%;
+  padding: 10px;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;       /* This centers the button horizontally */
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.login-box input {
+  margin-bottom: 15px;
+}
+h2{
+    text-align: center;
+}
+
